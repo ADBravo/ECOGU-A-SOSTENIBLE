@@ -31,7 +31,7 @@ Está desarrollada en **Flutter**, con arquitectura modular tipo servidor, persi
 
 ```bash
 git clone https://github.com/tuusuario/ECOGU-A-SOSTENIBLE.git
-cd huella_carbono
+cd ECOGU-A-SOSTENIBLE
 ```
 
 2. **Instalar dependencias**
