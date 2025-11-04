@@ -56,7 +56,14 @@ class CarbonoModel {
       },
       'recommendations': _generateRecommendations(total),
       'equivalents': _calculateEquivalents(total),
+      'status': _evaluateStatus(total), // ✅ NUEVO
     };
+  }
+
+  String _evaluateStatus(double total) {
+    if (total > 1000) return 'alto';
+    if (total > 500) return 'medio';
+    return 'bajo';
   }
 
   List<String> _generateRecommendations(double total) {
